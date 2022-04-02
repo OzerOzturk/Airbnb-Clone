@@ -1,7 +1,7 @@
 import { Button } from "@material-ui/core";
 import React, { useState } from "react";
 import "./Banner.css";
-import Search from "../Search/Search.js";
+import Search from "./SearchDate.js";
 
 function Banner() {
   const [showSearch, setShowSearch] = useState(true);

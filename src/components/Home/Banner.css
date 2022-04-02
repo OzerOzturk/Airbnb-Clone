@@ -1,17 +1,17 @@
 .banner {
-  background: url("https://images.unsplash.com/photo-1634547476021-c1155c01616c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80")
-    center;
+  background: url("https://images.unsplash.com/photo-1508330570239-ce7cabceee22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1986&q=80") center;
   height: 50vh;
   position: relative;
 }
 
 .banner__info {
-  background-color: black;
+  background-color: rgb(0, 0, 0,0.8);
   color: white;
-  padding-top: 25vh;
+  border-bottom-right-radius: 10px;
+  padding-top: 23vh;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   width: 300px;
 }
 
@@ -32,6 +32,7 @@
   color: white;
   text-transform: inherit;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 

@@ -40,3 +40,8 @@
   color:white;
   width: 579px;
 }
+
+.search > button:hover {
+  background-color: white;
+  color:#ff7779;
+}

@@ -1,7 +1,7 @@
 import { Button } from "@material-ui/core";
 import React, { useState } from "react";
 import "./Banner.css";
-import Search from "./SearchDate.js";
+import SearchDate from "./SearchDate.js";
 import { useHistory } from "react-router-dom";
 
 function Banner() {
@@ -11,7 +11,7 @@ function Banner() {
   return (
     <div className="banner">
       <div className="banner__search">
-        {showSearch && <Search />}
+        {showSearch && <SearchDate />}
         <Button
           onClick={() => setShowSearch(!showSearch)}
           className="banner__searchButton"

@@ -65,7 +65,7 @@
     position: absolute;
     bottom: 20px;
     right: 30px;
-    font-size: small;
+    font-size: 0.7em;
 }
 
 .searchResult__price > p {
@@ -110,13 +110,13 @@
 @media screen and (max-width:550px) {
     .searchResult__infoBottom {
         display: flex;
-        flex-direction: inherit;
         margin-top: 20px;
         line-height: 1.5;
     }
 
     .searchResult__price {
         position: unset;
+        font-size: 0.45em;
     }
 
     .searchResult__price> p {

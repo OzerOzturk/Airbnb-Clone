@@ -44,3 +44,16 @@
 .banner__info > h5 {
   margin-top: 10px;
 }
+
+/* responsive section */
+
+@media screen and (max-width: 500px) {
+  .banner__info {
+    width: 150px;
+    height: 180px;
+  }
+
+  .banner__info > h1 {
+    font-size: 1rem;
+  }
+}

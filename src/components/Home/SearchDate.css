@@ -2,7 +2,6 @@
   position: absolute;
   top: 35px;
   left: 25%;
-  width: 100vw;
   z-index: 1;
 }
 
@@ -45,4 +44,11 @@
 .search > button:hover {
   background-color: white;
   color:#ff7779;
+}
+
+/* responsive section */
+@media screen and (max-width: 768px) {
+  .search {
+    left:0;
+  }
 }
